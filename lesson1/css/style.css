@@ -1,0 +1,8 @@
+ /*p is a selector 
+color is a property and purple is value 
+Decleration is property and property value combined
+whole structure is called rule set */
+ p{
+    font-size: 64px;
+    color :purple;
+}
