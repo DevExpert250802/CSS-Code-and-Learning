@@ -1,0 +1,81 @@
+/*  CSS works like waterfall
+which defination it reads last apply last */
+/*  !important   overrides every thing */
+
+/* Selector are of  types :-
+
+Universal Selector     *
+Element Selector       element
+Grouping Selector      element,element
+Class Selector        .class
+Id Selector            #
+
+*/
+
+/*The CSS Universal Selector
+The universal selector (*) selects all HTML elements on the page.*/
+
+*{
+    font-family: monospace;
+    border: 1px solid black;
+    /* it is a  not conept of inheritance  in it every  body element selects  
+    border,form elements  can not be inherited */
+}
+
+/*The CSS element Selector 
+element selector select all the element of its type
+*/
+
+body{
+    font-size: 22px;
+
+    /* " border: 3px solid black; " >> border went around body element not to every element inside body  */ 
+    /* it is a conept of inheritance */
+}
+
+/*   The CSS Grouping Selector
+The grouping selector selects all the HTML elements with the same style definitions.
+Look at the following CSS code (the h1, h2, and p elements have the same style definitions)  */
+
+/*h1 h2{ 
+     this did not work as it searches any h2 inside h1
+}  */
+
+h1,h2{
+    color: blue;
+}
+
+p{
+    color: purple;
+}
+p{
+    color: red;
+}
+
+
+/*The CSS class Selector 
+The class selector selects HTML elements with a specific class attribute.
+To select elements with a specific class, write a period (.) character, followed by the class name
+*/
+
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray{
+    color: gray;
+}
+
+/*   Do not use  CSS id Selector  */
+
+
+/*The CSS id Selector
+The id selector uses the id attribute of an HTML element to select a specific element.
+
+The id of an element is unique within a page, so the id selector is used to select one unique element!
+
+To select an element with a specific id, write a hash (#) character, followed by the id of the element*/
+#second{
+    font-style: italic;
+}
