@@ -1,0 +1,37 @@
+body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: papayawhip;
+    color:blueviolet; /* font color*/
+
+    /* another way of writing font color */
+
+     /* color: rgb(0,255,0)*/  /*it is 100% green */
+       /* color: rgb(0,0,255)*/ /*  it is 100% blue */ 
+      /* color: rgb(255,0,0)*/ /*  it is 100% red */
+      /* color: rgb(0,0,0)*/ /*  it is 100% black */
+      /* color: rgb(255,255,255)*/ /*  it is 100% white */
+
+      /*  color: rgba(red, green, blue, alpha); */
+     /* a defines transparency (0 to 1)*/
+
+
+/* another way of writing font color ( Hexadecimal ) */
+/* value: 0-9-a-f  */
+
+     /* color: #00FF00*/    /*it is 100% green */
+     /* color: #0000FF*/   /*  it is 100% blue */ 
+     /* color: #FF0000*/  /*  it is 100% red */
+     /* color: #000000*/  /*  it is 100% black */
+     /* color: #000*/    /*  it is 100% black */
+     /* color: #FFF/    /*  it is 100% white */
+
+}
+p{
+    color: hsla(0, 0%, 0%, 0.83);
+}
+
+
+/*     colors.co    for color pallet   */
+    
