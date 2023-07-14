@@ -1,0 +1,29 @@
+
+ h1{
+    border : 2px dashed rgb(0, 255, 225);
+    width  : 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+    /*Padding is used to create space around an element's content, inside of any defined borders.*/
+ }
+
+ main{
+/* rem  font size of root  element */
+font-size: 2rem;
+
+ }
+ p{
+  font-size: 2em; 
+  /*  what if we use em instead of rem our main element looking at the root it doubled that to 32 px and using 2 em's at the main element the parent of the paragraph 
+     */
+ }
+
+
+ /*
+ p{
+  /* font-size:32px;  */ /* do not use absolute value for font size*/ /* let browser handel it
+  border: 2px dashed red;
+  width: 70%; /* width percentage is relative to its parent 
+ }
+ */
+
