@@ -1,0 +1,131 @@
+Css box :-
+In CSS, the term "box model" is used when talking about design and layout.
+
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. 
+
+Explanation of the different parts:
+
+Content - The content of the box, where text and images appear
+
+Padding - Clears an area around the content. The padding is transparent
+
+CSS Padding Properties
+
+* Padding-top * Padding-right
+* Padding-bottom * Padding-left
+
+CSS Padding Shorthand
+(clockwise)
+Padding-top : 10px;
+Padding-right : 10px;
+Padding-bottom : 10px;
+Padding-left : 10px;
+Padding : 10px;
+
+Padding-top : 10px; Padding-right : 20px;
+Padding-bottom : 15px; Padding-left : 25px;
+Padding : 10px 20px 15px 25px;
+
+
+
+Border - A border that goes around the padding and content
+
+CSS border Properties
+* Border-Width
+
+* Border-Style
+CSS Border Style
+* Solid * Dotted * Dashed * Double * Groove
+* Ridge * Inset * Outset * None * Mix
+
+* Border-Color
+
+CSS Border Shorthand
+border-width : 2px;
+border-style : solid;
+border-color : red;
+
+border : 2px solid red;
+
+
+CSS Border Side
+* Border-top * Border-right * Border-bottom * Border-left
+
+
+Margin(outside border) - Clears an area outside the border. The margin is transparent
+
+CSS MarginShorthand
+(clockwise)
+Margin-top : 10px; Margin-right : 10px;
+Margin-bottom : 10px; Margin-left : 10px;
+Margin : 10px;
+
+Margin-top : 10px; Margin-right : 20px;
+Margin-bottom : 15px; Margin-left : 25px;
+Margin : 10px 20px 15px 25px;
+
+CSS Margin Auto
+
+Margin-top : 10px; Margin-right : auto; 
+Margin-bottom : 10px; Margin-left : auto;
+
+
+Outline - An outline is a line drawn outside the element's border.
+CSS Outline Properties
+
+* Outline-Width * Outline-Style
+* Outline-Color * Outline-offset
+
+CSS Outline Style
+
+* Solid * Dotted * Dashed * Double
+
+* Groove * Ridge * Inset * Outset * None
+
+CSS Outline Shorthand
+
+Outline-width : 2px;
+Outline-style : solid;
+Outline-color : red;
+
+outline : 2px solid red;
+
+
+The box model allows us to add a border around elements, and to define space between elements. 
+
+The CSS height and width properties are used to set the height and width of an element.
+
+ In case of % floating screen appears eg:- width : 80% (80% of screen size..)
+
+In case of pixels(px) size is fix
+if width and height is more than page then scroll bar(Horizontal or Vertical) appears
+
+min-height:200px; max-height:500px;
+min-width:300px; max-width:800px;(min width dose not work automatically you have to set maximum)
+
+3 Type of Overflow Properties
+*  overflow
+* overflow-x
+* overflow-y
+
+The overflow property has the following values:
+visible - Default. The overflow is not clipped. The content renders outside the element's box
+hidden - The overflow is clipped, and the rest of the content will be invisible
+scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+auto - Similar to scroll, but it adds scrollbars only when necessary
+
+"em" is a CSS unit relative to the font size of the parent element, while "rem" is a CSS unit relative to the font size of an html element. 
+Both of these are scalable units, meaning they give us the ability to scale elements up and down, relative to a set value. 
+This adds more flexibility to our designs and makes our sites more responsive.
+
+.circle{
+margin: 3rem auto ;
+background-color: gold;
+width: 100px;
+height: 100px;
+border: 2px solid black;
+border-radius: 50px;
+outline: 2px solid red;
+outline-offset: 0.25rem;
+}
+
