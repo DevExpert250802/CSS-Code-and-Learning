@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+/* By default:unvisited link tag shows with blue color 
+and visited link tag shows with purple and 
+if link is active it shows in orange color */
+a{
+ text-decoration: none;
+ cursor: pointer;
+ color: hsl(207, 44%, 49%); /* blue is default */
+}
+/* pseudo class
+if link is visited
+specificity of  anchor:visited is more than anchor
+visited ,hover and active have same specificity
+(anchor->visited->hover->active)follow this order*/
+a:visited{
+    color: blueviolet;
+}
+/* when we hover over the link */
+/* when we focus using tab button it creates border over the link */
+a:hover, a:focus{
+    color: hsl(189, 44%, 49%, 0.8);
+    opacity: 0.8;
+    /* transparency in text */
+    background-color: aquamarine;
+}
+a:active{
+    color: red;
+}
