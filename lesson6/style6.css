@@ -1,0 +1,36 @@
+
+/* https://fonts.google.com/ 
+importing fonts using import links
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/ 
+
+
+/* Typography is the way that text
+is arranged and presented */
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif; /* importing fonts */
+}
+/* 
+input,button{
+    font: inherit;  it inhert the font size that we put on everything else 
+} */
+p{
+   /*  text-decoration:underline ; underline through the text
+    text-decoration:overline ; overline through the text
+    text-decoration:line-through; line cut through the text(cross out)
+    text-decoration:none; default(it can remove undeline from links )
+    text-transform:capitalize; capatlize first letter of alphabet of paragraph 
+    text-transform: lowercase; lower evry letter
+    text-transform: uppercase;uppercase evry letter
+    text-align:left; default for paragraph (paper) 
+    text-align: justify;(newspaper,magzine)
+    text-align: right;(uniform at right and non uniform at left)
+    text-indent: 2em;(space from starting word)*/
+    line-height: 1.5;/* (difference between lines) */
+   /* letter-spacing: .1em;   space between alphabets 
+   word-spacing: 0.1em;
+   font-weight: 900; bold */
+}
