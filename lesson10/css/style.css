@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* main{
+  background-color: aqua;
+  width: 50%; 
+}*/
+
+/*  paragraph  is a block element as it covers entire width of that block */ 
+/* p{
+  background-color: lightgrey;
+  
+}
+
+.opposite{
+  display: inline-block;/* padding is applied but it would not overlap block  */
+  /*background-color: #333;
+  color: whitesmoke;
+ /* margin-top: 100px; nothing happens as it is inline element  */
+ /*height: 200px;  nothing happens as it is inline element  */
+  /*padding: 1rem;  applies differently 
+
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+ul {
+  list-style-type: none;
+  padding: 0.5rem;
+  text-align: right;
+  background-color: black;
+  margin: 0;
+}
+li{
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+ 
+li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+li a:hover,
+li a:focus{
+  text-decoration: underline;
+}
